@@ -4,7 +4,7 @@ import { TIMES, DAYS } from "./App"
 import { LargeCard } from "../styles/Card.style"
 import { ContentGrid } from "../styles/Grid.style"
 import { Select, Label, TextArea, Form } from "../styles/Form.style"
-import Button from "../styles/Button.style"
+import {SubmitButton} from "../styles/Button.style"
 
 const CreateAppointment = ({addNewAppointment}) => {
 	const [providers, setProviders] = useState([])
@@ -151,7 +151,7 @@ const CreateAppointment = ({addNewAppointment}) => {
 					<Label> Reason </Label>
 					<TextArea name = "reason" placeholder="Reason for visit..." onChange= {handleReason}/>
 
-					<Button type = "submit" >Submit</Button>
+					<SubmitButton type = "submit" >Submit</SubmitButton>
 				</Form>
 			</LargeCard>
 		</ContentGrid>

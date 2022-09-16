@@ -13,21 +13,18 @@ const UserForm = styled.div`
   max-width: 450px;
 
   input[type=text], input[type=password] {
-  width: 90%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid black;
-  border-radius: 15px;
-  box-sizing: border-box;
-
-  p{
-    margin-top: 20px
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
   }
 
-  h2 { margin-bottom: 10px }
+  p{ margin-top: 20px }
 
-}
+  h2{ margin-bottom: 10px }
 `
 // LargeCard Forms
 const Form = styled.form`
@@ -73,7 +70,6 @@ const Input = styled.input`
   box-sizing: border-box;
 	font-size: large;
 `
-
 
 export default UserForm;
 export {Form, Select, TextArea, Label, Input };
